@@ -1,0 +1,26 @@
+{
+    // System path in order to have pylance find imports from /src/data from code where I have used:
+    // > base_path = os.getenv("BASE_PATH")  # nopep8
+    // > sys.path.append(os.path.join(base_path, "src/data"))  # nopep8
+    "python.analysis.extraPaths": [
+        "src/data/",
+        "src/models/UniTS",
+    ],
+    "python.analysis.exclude": [
+        "**/node_modules",
+        "**/__pycache__",
+        "**/build",
+        "**/wandb",
+        "./data"
+    ],
+    // Add "BASE_PATH" to the environment variables with the path to the root of the project
+    "terminal.integrated.env.linux": {
+        "BASE_PATH": "${workspaceFolder}"
+    },
+    "terminal.integrated.env.osx": {
+        "BASE_PATH": "${workspaceFolder}"
+    },
+    "terminal.integrated.env.windows": {
+        "BASE_PATH": "${workspaceFolder}"
+    }
+}
