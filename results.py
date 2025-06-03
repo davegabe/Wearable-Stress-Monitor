@@ -42,8 +42,8 @@ AUCs = {
     "tadgan": ["AUC_ROC", "AUC_PR"],
 }
 RUNS = {
-    "tranad": 30,
-    "units": 30,
+    "tranad": 25,
+    "units": 25,
     "hypad": 25,
     "tadgan": 25,
 }
