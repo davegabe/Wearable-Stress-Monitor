@@ -42,4 +42,6 @@ python results.py
 ```
 
 ## Acknowledgements
+This work has been partially supported by the project “E-DAI”: Digital ecosystem for integrated analysis of heterogeneous health data relating to high-impact pathologies: an innovative model of assistance and research. Piano Operativo Salute (POS) 2014-2020, CUP: B83C22004150001.
+
 This project use the code from the repositiories of [UniTS](https://github.com/mims-harvard/UniTS), [TranAD](https://github.com/imperial-qore/TranAD) and [HypAD](https://github.com/aleflabo/HypAD/) for the implementation of the models.
